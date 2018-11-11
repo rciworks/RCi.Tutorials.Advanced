@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 001 - Trees, Generics", "Tutorial 001 - Trees, Generics\Tutorial 001 - Trees, Generics.csproj", "{AD9463D8-273C-4A71-9DAE-8F1341FEEF38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 002 - Generic Tree Madness", "Tutorial 002 - Generic Tree Madness\Tutorial 002 - Generic Tree Madness.csproj", "{6AA0C30F-9150-47D8-979B-2BFF867331A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 002 - Generic Tree Madness", "Tutorial 002 - Generic Tree Madness\Tutorial 002 - Generic Tree Madness.csproj", "{6AA0C30F-9150-47D8-979B-2BFF867331A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 003 - Performance, Array Fill", "Tutorial 003 - Performance, Array Fill\Tutorial 003 - Performance, Array Fill.csproj", "{3D051D06-16EF-4EED-88EB-BE4C5F692010}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6AA0C30F-9150-47D8-979B-2BFF867331A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AA0C30F-9150-47D8-979B-2BFF867331A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AA0C30F-9150-47D8-979B-2BFF867331A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D051D06-16EF-4EED-88EB-BE4C5F692010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D051D06-16EF-4EED-88EB-BE4C5F692010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D051D06-16EF-4EED-88EB-BE4C5F692010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D051D06-16EF-4EED-88EB-BE4C5F692010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
