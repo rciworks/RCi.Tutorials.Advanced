@@ -6,7 +6,7 @@
     <RootNamespace>RCi.Tutorials.Advanced</RootNamespace>
     <ApplicationIcon />
     <StartupObject />
-    <LangVersion>latest</LangVersion>
+    <LangVersion>7.1</LangVersion>
   </PropertyGroup>
 
 </Project>
