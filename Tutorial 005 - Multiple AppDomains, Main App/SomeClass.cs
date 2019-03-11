@@ -17,8 +17,13 @@ namespace RCi.Tutorials.Advanced
         static SomeClass()
         {
             // load assembly into new domain
+#if DEBUG
+            var cfg = "Debug";
+#else
+            var cfg = "Release";
+#endif
             var assemblyName = "Tutorial 005 - Multiple AppDomains, External Lib.dll";
-            var assemblyPath = Path.GetFullPath(Path.Combine(@"..\..\..\Tutorial 005 - Multiple AppDomains, External Lib\bin\Debug", assemblyName));
+            var assemblyPath = Path.GetFullPath(Path.Combine(@"..\..\..\Tutorial 005 - Multiple AppDomains, External Lib\bin", cfg, assemblyName));
             var assemblyBytes = File.ReadAllBytes(assemblyPath);
             var assembly = Assembly.Load(assemblyBytes);
 
