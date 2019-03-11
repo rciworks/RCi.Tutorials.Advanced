@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 003 - Performance,
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tutorial 004 - Bridge", "Tutorial 004 - Bridge\Tutorial 004 - Bridge.csproj", "{A2BF98D2-7199-4EF7-85DC-F88B401988C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 005 - Multiple AppDomains, External Lib", "Tutorial 005 - Multiple AppDomains, External Lib\Tutorial 005 - Multiple AppDomains, External Lib.csproj", "{1071C123-2DD8-43AB-AE2D-F66939C600DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 005 - Multiple AppDomains, Main App", "Tutorial 005 - Multiple AppDomains, Main App\Tutorial 005 - Multiple AppDomains, Main App.csproj", "{C5EA314F-F5A8-4ED4-8B5F-E6773B396199}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{A2BF98D2-7199-4EF7-85DC-F88B401988C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2BF98D2-7199-4EF7-85DC-F88B401988C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2BF98D2-7199-4EF7-85DC-F88B401988C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1071C123-2DD8-43AB-AE2D-F66939C600DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1071C123-2DD8-43AB-AE2D-F66939C600DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1071C123-2DD8-43AB-AE2D-F66939C600DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1071C123-2DD8-43AB-AE2D-F66939C600DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5EA314F-F5A8-4ED4-8B5F-E6773B396199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5EA314F-F5A8-4ED4-8B5F-E6773B396199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5EA314F-F5A8-4ED4-8B5F-E6773B396199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5EA314F-F5A8-4ED4-8B5F-E6773B396199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
